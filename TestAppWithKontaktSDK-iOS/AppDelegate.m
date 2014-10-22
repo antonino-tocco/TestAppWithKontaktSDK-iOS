@@ -8,15 +8,43 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+#import "KontaktSDK.h"
+
+
+@interface AppDelegate () <KTKLocationManagerDelegate>
+
+@property KTKLocationManager *locationManager;
 
 @end
 
+
 @implementation AppDelegate
 
+- (id)init
+{
+    self = [super init];
+    
+    if (self)
+    {
+        _locationManager = [KTKLocationManager new];
+        _locationManager.delegate = self;
+    }
+    
+    return self;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if ([KTKLocationManager canMonitorBeacons])
+    {
+        KTKRegion *region =[[KTKRegion alloc] init];
+        region.uuid = @"f7826da6-4fa2-4e98-8024-bc5b71e0893e"; // kontakt.io proximity UUID
+        
+        [self.locationManager setRegions:@[region]];
+        [self.locationManager startMonitoringBeacons];
+    }
+    
     return YES;
 }
 
@@ -40,6 +68,32 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - KTKLocationManagerDelegate
+
+
+- (void)locationManager:(KTKLocationManager *)locationManager didChangeState:(KTKLocationManagerState)state withError:(NSError *)error
+{
+    if (state == KTKLocationManagerStateFailed)
+    {
+        NSLog(@"Something went wrong with your Location Services settings. Check OS settings.");
+    }
+}
+
+- (void)locationManager:(KTKLocationManager *)locationManager didEnterRegion:(KTKRegion *)region
+{
+    NSLog(@"Enter region %@", region.uuid);
+}
+
+- (void)locationManager:(KTKLocationManager *)locationManager didExitRegion:(KTKRegion *)region
+{
+    NSLog(@"Exit region %@", region.uuid);
+}
+
+- (void)locationManager:(KTKLocationManager *)locationManager didRangeBeacons:(NSArray *)beacons
+{
+    NSLog(@"Ranged beacons count: %lu", [beacons count]);
 }
 
 @end
