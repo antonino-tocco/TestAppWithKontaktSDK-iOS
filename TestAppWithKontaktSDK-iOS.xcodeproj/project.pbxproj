@@ -14,6 +14,8 @@
 		3137D8A719F7FE07007CA38D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3137D8A619F7FE07007CA38D /* Images.xcassets */; };
 		3137D8AA19F7FE07007CA38D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3137D8A819F7FE07007CA38D /* LaunchScreen.xib */; };
 		3137D8B619F7FE07007CA38D /* TestAppWithKontaktSDK_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137D8B519F7FE07007CA38D /* TestAppWithKontaktSDK_iOSTests.m */; };
+		3137D8E219F80209007CA38D /* libkontakt-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3137D8E119F80209007CA38D /* libkontakt-ios-sdk.a */; };
+		3137D8E319F80209007CA38D /* libkontakt-ios-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3137D8E119F80209007CA38D /* libkontakt-ios-sdk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,37 @@
 		3137D8AF19F7FE07007CA38D /* TestAppWithKontaktSDK-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppWithKontaktSDK-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3137D8B419F7FE07007CA38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3137D8B519F7FE07007CA38D /* TestAppWithKontaktSDK_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppWithKontaktSDK_iOSTests.m; sourceTree = "<group>"; };
+		3137D8C319F80209007CA38D /* KontaktSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KontaktSDK.h; sourceTree = "<group>"; };
+		3137D8C419F80209007CA38D /* KTKAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKAction.h; sourceTree = "<group>"; };
+		3137D8C519F80209007CA38D /* KTKActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKActionManager.h; sourceTree = "<group>"; };
+		3137D8C619F80209007CA38D /* KTKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeacon.h; sourceTree = "<group>"; };
+		3137D8C719F80209007CA38D /* KTKBeaconDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconDevice.h; sourceTree = "<group>"; };
+		3137D8C819F80209007CA38D /* KTKBeaconDeviceV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconDeviceV2.h; sourceTree = "<group>"; };
+		3137D8C919F80209007CA38D /* KTKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconManager.h; sourceTree = "<group>"; };
+		3137D8CA19F80209007CA38D /* KTKBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBluetoothDevice.h; sourceTree = "<group>"; };
+		3137D8CB19F80209007CA38D /* KTKBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBluetoothManager.h; sourceTree = "<group>"; };
+		3137D8CC19F80209007CA38D /* KTKCharacteristicDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKCharacteristicDescriptor.h; sourceTree = "<group>"; };
+		3137D8CD19F80209007CA38D /* KTKClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKClient.h; sourceTree = "<group>"; };
+		3137D8CE19F80209007CA38D /* KTKCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKCompany.h; sourceTree = "<group>"; };
+		3137D8CF19F80209007CA38D /* KTKConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKConverter.h; sourceTree = "<group>"; };
+		3137D8D019F80209007CA38D /* KTKDataTransferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKDataTransferObject.h; sourceTree = "<group>"; };
+		3137D8D119F80209007CA38D /* KTKDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKDescriptor.h; sourceTree = "<group>"; };
+		3137D8D219F80209007CA38D /* KTKError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKError.h; sourceTree = "<group>"; };
+		3137D8D319F80209007CA38D /* KTKFirmware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKFirmware.h; sourceTree = "<group>"; };
+		3137D8D419F80209007CA38D /* KTKHexConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKHexConverter.h; sourceTree = "<group>"; };
+		3137D8D519F80209007CA38D /* KTKLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKLocationManager.h; sourceTree = "<group>"; };
+		3137D8D619F80209007CA38D /* KTKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKManager.h; sourceTree = "<group>"; };
+		3137D8D719F80209007CA38D /* KTKNumberConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKNumberConverter.h; sourceTree = "<group>"; };
+		3137D8D819F80209007CA38D /* KTKNumberDiscreteConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKNumberDiscreteConverter.h; sourceTree = "<group>"; };
+		3137D8D919F80209007CA38D /* KTKNumberLinearConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKNumberLinearConverter.h; sourceTree = "<group>"; };
+		3137D8DA19F80209007CA38D /* KTKRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKRegion.h; sourceTree = "<group>"; };
+		3137D8DB19F80209007CA38D /* KTKServiceDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKServiceDescriptor.h; sourceTree = "<group>"; };
+		3137D8DC19F80209007CA38D /* KTKStringConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKStringConverter.h; sourceTree = "<group>"; };
+		3137D8DD19F80209007CA38D /* KTKSubordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKSubordinate.h; sourceTree = "<group>"; };
+		3137D8DE19F80209007CA38D /* KTKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKUser.h; sourceTree = "<group>"; };
+		3137D8DF19F80209007CA38D /* KTKUUIDConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKUUIDConverter.h; sourceTree = "<group>"; };
+		3137D8E019F80209007CA38D /* KTKVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKVenue.h; sourceTree = "<group>"; };
+		3137D8E119F80209007CA38D /* libkontakt-ios-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libkontakt-ios-sdk.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3137D8E219F80209007CA38D /* libkontakt-ios-sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3137D8E319F80209007CA38D /* libkontakt-ios-sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 		3137D88D19F7FE06007CA38D = {
 			isa = PBXGroup;
 			children = (
+				3137D8C019F80209007CA38D /* External */,
 				3137D89819F7FE07007CA38D /* TestAppWithKontaktSDK-iOS */,
 				3137D8B219F7FE07007CA38D /* TestAppWithKontaktSDK-iOSTests */,
 				3137D89719F7FE07007CA38D /* Products */,
@@ -117,6 +153,61 @@
 				3137D8B419F7FE07007CA38D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3137D8C019F80209007CA38D /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3137D8C119F80209007CA38D /* kontakt-ios-sdk */,
+			);
+			name = External;
+			path = "TestAppWithKontaktSDK-iOS/External";
+			sourceTree = "<group>";
+		};
+		3137D8C119F80209007CA38D /* kontakt-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3137D8C219F80209007CA38D /* kontakt-ios-sdk */,
+				3137D8E119F80209007CA38D /* libkontakt-ios-sdk.a */,
+			);
+			path = "kontakt-ios-sdk";
+			sourceTree = "<group>";
+		};
+		3137D8C219F80209007CA38D /* kontakt-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3137D8C319F80209007CA38D /* KontaktSDK.h */,
+				3137D8C419F80209007CA38D /* KTKAction.h */,
+				3137D8C519F80209007CA38D /* KTKActionManager.h */,
+				3137D8C619F80209007CA38D /* KTKBeacon.h */,
+				3137D8C719F80209007CA38D /* KTKBeaconDevice.h */,
+				3137D8C819F80209007CA38D /* KTKBeaconDeviceV2.h */,
+				3137D8C919F80209007CA38D /* KTKBeaconManager.h */,
+				3137D8CA19F80209007CA38D /* KTKBluetoothDevice.h */,
+				3137D8CB19F80209007CA38D /* KTKBluetoothManager.h */,
+				3137D8CC19F80209007CA38D /* KTKCharacteristicDescriptor.h */,
+				3137D8CD19F80209007CA38D /* KTKClient.h */,
+				3137D8CE19F80209007CA38D /* KTKCompany.h */,
+				3137D8CF19F80209007CA38D /* KTKConverter.h */,
+				3137D8D019F80209007CA38D /* KTKDataTransferObject.h */,
+				3137D8D119F80209007CA38D /* KTKDescriptor.h */,
+				3137D8D219F80209007CA38D /* KTKError.h */,
+				3137D8D319F80209007CA38D /* KTKFirmware.h */,
+				3137D8D419F80209007CA38D /* KTKHexConverter.h */,
+				3137D8D519F80209007CA38D /* KTKLocationManager.h */,
+				3137D8D619F80209007CA38D /* KTKManager.h */,
+				3137D8D719F80209007CA38D /* KTKNumberConverter.h */,
+				3137D8D819F80209007CA38D /* KTKNumberDiscreteConverter.h */,
+				3137D8D919F80209007CA38D /* KTKNumberLinearConverter.h */,
+				3137D8DA19F80209007CA38D /* KTKRegion.h */,
+				3137D8DB19F80209007CA38D /* KTKServiceDescriptor.h */,
+				3137D8DC19F80209007CA38D /* KTKStringConverter.h */,
+				3137D8DD19F80209007CA38D /* KTKSubordinate.h */,
+				3137D8DE19F80209007CA38D /* KTKUser.h */,
+				3137D8DF19F80209007CA38D /* KTKUUIDConverter.h */,
+				3137D8E019F80209007CA38D /* KTKVenue.h */,
+			);
+			path = "kontakt-ios-sdk";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,7 +437,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TestAppWithKontaktSDK-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestAppWithKontaktSDK-iOS/External/kontakt-ios-sdk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -356,7 +453,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TestAppWithKontaktSDK-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestAppWithKontaktSDK-iOS/External/kontakt-ios-sdk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -375,6 +478,10 @@
 				);
 				INFOPLIST_FILE = "TestAppWithKontaktSDK-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestAppWithKontaktSDK-iOS/External/kontakt-ios-sdk",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAppWithKontaktSDK-iOS.app/TestAppWithKontaktSDK-iOS";
 			};
@@ -390,6 +497,10 @@
 				);
 				INFOPLIST_FILE = "TestAppWithKontaktSDK-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestAppWithKontaktSDK-iOS/External/kontakt-ios-sdk",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAppWithKontaktSDK-iOS.app/TestAppWithKontaktSDK-iOS";
 			};
@@ -414,6 +525,7 @@
 				3137D8BB19F7FE07007CA38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3137D8BC19F7FE07007CA38D /* Build configuration list for PBXNativeTarget "TestAppWithKontaktSDK-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +534,7 @@
 				3137D8BE19F7FE07007CA38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
