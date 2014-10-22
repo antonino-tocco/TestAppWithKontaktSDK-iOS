@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3137D89C19F7FE07007CA38D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137D89B19F7FE07007CA38D /* main.m */; };
+		3137D89F19F7FE07007CA38D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137D89E19F7FE07007CA38D /* AppDelegate.m */; };
+		3137D8A219F7FE07007CA38D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137D8A119F7FE07007CA38D /* ViewController.m */; };
+		3137D8A519F7FE07007CA38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3137D8A319F7FE07007CA38D /* Main.storyboard */; };
+		3137D8A719F7FE07007CA38D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3137D8A619F7FE07007CA38D /* Images.xcassets */; };
+		3137D8AA19F7FE07007CA38D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3137D8A819F7FE07007CA38D /* LaunchScreen.xib */; };
+		3137D8B619F7FE07007CA38D /* TestAppWithKontaktSDK_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3137D8B519F7FE07007CA38D /* TestAppWithKontaktSDK_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3137D8B019F7FE07007CA38D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3137D88E19F7FE06007CA38D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3137D89519F7FE07007CA38D;
+			remoteInfo = "TestAppWithKontaktSDK-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3137D89619F7FE07007CA38D /* TestAppWithKontaktSDK-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestAppWithKontaktSDK-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3137D89A19F7FE07007CA38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3137D89B19F7FE07007CA38D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3137D89D19F7FE07007CA38D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3137D89E19F7FE07007CA38D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3137D8A019F7FE07007CA38D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3137D8A119F7FE07007CA38D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3137D8A419F7FE07007CA38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3137D8A619F7FE07007CA38D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3137D8A919F7FE07007CA38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3137D8AF19F7FE07007CA38D /* TestAppWithKontaktSDK-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestAppWithKontaktSDK-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3137D8B419F7FE07007CA38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3137D8B519F7FE07007CA38D /* TestAppWithKontaktSDK_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppWithKontaktSDK_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3137D89319F7FE07007CA38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3137D8AC19F7FE07007CA38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3137D88D19F7FE06007CA38D = {
+			isa = PBXGroup;
+			children = (
+				3137D89819F7FE07007CA38D /* TestAppWithKontaktSDK-iOS */,
+				3137D8B219F7FE07007CA38D /* TestAppWithKontaktSDK-iOSTests */,
+				3137D89719F7FE07007CA38D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3137D89719F7FE07007CA38D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3137D89619F7FE07007CA38D /* TestAppWithKontaktSDK-iOS.app */,
+				3137D8AF19F7FE07007CA38D /* TestAppWithKontaktSDK-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3137D89819F7FE07007CA38D /* TestAppWithKontaktSDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3137D89D19F7FE07007CA38D /* AppDelegate.h */,
+				3137D89E19F7FE07007CA38D /* AppDelegate.m */,
+				3137D8A019F7FE07007CA38D /* ViewController.h */,
+				3137D8A119F7FE07007CA38D /* ViewController.m */,
+				3137D8A319F7FE07007CA38D /* Main.storyboard */,
+				3137D8A619F7FE07007CA38D /* Images.xcassets */,
+				3137D8A819F7FE07007CA38D /* LaunchScreen.xib */,
+				3137D89919F7FE07007CA38D /* Supporting Files */,
+			);
+			path = "TestAppWithKontaktSDK-iOS";
+			sourceTree = "<group>";
+		};
+		3137D89919F7FE07007CA38D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3137D89A19F7FE07007CA38D /* Info.plist */,
+				3137D89B19F7FE07007CA38D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3137D8B219F7FE07007CA38D /* TestAppWithKontaktSDK-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3137D8B519F7FE07007CA38D /* TestAppWithKontaktSDK_iOSTests.m */,
+				3137D8B319F7FE07007CA38D /* Supporting Files */,
+			);
+			path = "TestAppWithKontaktSDK-iOSTests";
+			sourceTree = "<group>";
+		};
+		3137D8B319F7FE07007CA38D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3137D8B419F7FE07007CA38D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3137D89519F7FE07007CA38D /* TestAppWithKontaktSDK-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3137D8B919F7FE07007CA38D /* Build configuration list for PBXNativeTarget "TestAppWithKontaktSDK-iOS" */;
+			buildPhases = (
+				3137D89219F7FE07007CA38D /* Sources */,
+				3137D89319F7FE07007CA38D /* Frameworks */,
+				3137D89419F7FE07007CA38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestAppWithKontaktSDK-iOS";
+			productName = "TestAppWithKontaktSDK-iOS";
+			productReference = 3137D89619F7FE07007CA38D /* TestAppWithKontaktSDK-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3137D8AE19F7FE07007CA38D /* TestAppWithKontaktSDK-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3137D8BC19F7FE07007CA38D /* Build configuration list for PBXNativeTarget "TestAppWithKontaktSDK-iOSTests" */;
+			buildPhases = (
+				3137D8AB19F7FE07007CA38D /* Sources */,
+				3137D8AC19F7FE07007CA38D /* Frameworks */,
+				3137D8AD19F7FE07007CA38D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3137D8B119F7FE07007CA38D /* PBXTargetDependency */,
+			);
+			name = "TestAppWithKontaktSDK-iOSTests";
+			productName = "TestAppWithKontaktSDK-iOSTests";
+			productReference = 3137D8AF19F7FE07007CA38D /* TestAppWithKontaktSDK-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3137D88E19F7FE06007CA38D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = kontakt.io;
+				TargetAttributes = {
+					3137D89519F7FE07007CA38D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3137D8AE19F7FE07007CA38D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3137D89519F7FE07007CA38D;
+					};
+				};
+			};
+			buildConfigurationList = 3137D89119F7FE06007CA38D /* Build configuration list for PBXProject "TestAppWithKontaktSDK-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3137D88D19F7FE06007CA38D;
+			productRefGroup = 3137D89719F7FE07007CA38D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3137D89519F7FE07007CA38D /* TestAppWithKontaktSDK-iOS */,
+				3137D8AE19F7FE07007CA38D /* TestAppWithKontaktSDK-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3137D89419F7FE07007CA38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3137D8A519F7FE07007CA38D /* Main.storyboard in Resources */,
+				3137D8AA19F7FE07007CA38D /* LaunchScreen.xib in Resources */,
+				3137D8A719F7FE07007CA38D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3137D8AD19F7FE07007CA38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3137D89219F7FE07007CA38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3137D8A219F7FE07007CA38D /* ViewController.m in Sources */,
+				3137D89F19F7FE07007CA38D /* AppDelegate.m in Sources */,
+				3137D89C19F7FE07007CA38D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3137D8AB19F7FE07007CA38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3137D8B619F7FE07007CA38D /* TestAppWithKontaktSDK_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3137D8B119F7FE07007CA38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3137D89519F7FE07007CA38D /* TestAppWithKontaktSDK-iOS */;
+			targetProxy = 3137D8B019F7FE07007CA38D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3137D8A319F7FE07007CA38D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3137D8A419F7FE07007CA38D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3137D8A819F7FE07007CA38D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3137D8A919F7FE07007CA38D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3137D8B719F7FE07007CA38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3137D8B819F7FE07007CA38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3137D8BA19F7FE07007CA38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TestAppWithKontaktSDK-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3137D8BB19F7FE07007CA38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TestAppWithKontaktSDK-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3137D8BD19F7FE07007CA38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestAppWithKontaktSDK-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAppWithKontaktSDK-iOS.app/TestAppWithKontaktSDK-iOS";
+			};
+			name = Debug;
+		};
+		3137D8BE19F7FE07007CA38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestAppWithKontaktSDK-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestAppWithKontaktSDK-iOS.app/TestAppWithKontaktSDK-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3137D89119F7FE06007CA38D /* Build configuration list for PBXProject "TestAppWithKontaktSDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3137D8B719F7FE07007CA38D /* Debug */,
+				3137D8B819F7FE07007CA38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3137D8B919F7FE07007CA38D /* Build configuration list for PBXNativeTarget "TestAppWithKontaktSDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3137D8BA19F7FE07007CA38D /* Debug */,
+				3137D8BB19F7FE07007CA38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3137D8BC19F7FE07007CA38D /* Build configuration list for PBXNativeTarget "TestAppWithKontaktSDK-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3137D8BD19F7FE07007CA38D /* Debug */,
+				3137D8BE19F7FE07007CA38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3137D88E19F7FE06007CA38D /* Project object */;
+}
