@@ -93,7 +93,7 @@
 
 - (void)locationManager:(KTKLocationManager *)locationManager didRangeBeacons:(NSArray *)beacons
 {
-    NSLog(@"Ranged beacons count: %lu", [beacons count]);
+    NSLog(@"Ranged beacons count: %lu", (unsigned long)[beacons count]);
 }
 
 @end
