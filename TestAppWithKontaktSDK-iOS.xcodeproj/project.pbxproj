@@ -47,7 +47,6 @@
 		3137D8C519F80209007CA38D /* KTKActionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKActionManager.h; sourceTree = "<group>"; };
 		3137D8C619F80209007CA38D /* KTKBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeacon.h; sourceTree = "<group>"; };
 		3137D8C719F80209007CA38D /* KTKBeaconDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconDevice.h; sourceTree = "<group>"; };
-		3137D8C819F80209007CA38D /* KTKBeaconDeviceV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconDeviceV2.h; sourceTree = "<group>"; };
 		3137D8C919F80209007CA38D /* KTKBeaconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBeaconManager.h; sourceTree = "<group>"; };
 		3137D8CA19F80209007CA38D /* KTKBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBluetoothDevice.h; sourceTree = "<group>"; };
 		3137D8CB19F80209007CA38D /* KTKBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTKBluetoothManager.h; sourceTree = "<group>"; };
@@ -181,7 +180,6 @@
 				3137D8C519F80209007CA38D /* KTKActionManager.h */,
 				3137D8C619F80209007CA38D /* KTKBeacon.h */,
 				3137D8C719F80209007CA38D /* KTKBeaconDevice.h */,
-				3137D8C819F80209007CA38D /* KTKBeaconDeviceV2.h */,
 				3137D8C919F80209007CA38D /* KTKBeaconManager.h */,
 				3137D8CA19F80209007CA38D /* KTKBluetoothDevice.h */,
 				3137D8CB19F80209007CA38D /* KTKBluetoothManager.h */,

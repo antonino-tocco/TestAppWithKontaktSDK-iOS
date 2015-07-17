@@ -22,6 +22,10 @@ extern NSString *const kKTKCharacteristicDescriptorTypeProximityUUID;
 extern NSString *const kKTKCharacteristicDescriptorTypeMajor;
 extern NSString *const kKTKCharacteristicDescriptorTypeMinor;
 extern NSString *const kKTKCharacteristicDescriptorTypeModelName;
+extern NSString *const kKTKCharacteristicDescriptorTypeNamespaceId;
+extern NSString *const kKTKCharacteristicDescriptorTypeInstanceId;
+extern NSString *const kKTKCharacteristicDescriptorTypeURL;
+extern NSString *const kKTKCharacteristicDescriptorTypeTxPower0;
 extern NSString *const kKTKCharacteristicDescriptorTypeAdvertisingInterval;
 extern NSString *const kKTKCharacteristicDescriptorTypePassword;
 extern NSString *const kKTKCharacteristicDescriptorTypeSetPassword;
@@ -30,7 +34,7 @@ extern NSString *const kKTKCharacteristicDescriptorTypeDefault;
 extern NSString *const kKTKCharacteristicDescriptorTypeBootloader;
 
 /**
- KTKCharacteristicDescriptor is an class that represents a specific bluetooth characteristic. It allows to refer to device characteristic by convinient type rather than its UUID.
+ KTKCharacteristicDescriptor is an class that represents a specific bluetooth characteristic. It allows to refer to device characteristic by convenient type rather than its UUID.
  
  Predefined characteristics types are:
  

@@ -34,7 +34,7 @@
 @property (nonatomic, readonly) NSString *lastName;
 
 /**
- subordinate's email addres
+ subordinate's email address
  */
 @property (nonatomic, readonly) NSString *email;
 
@@ -52,7 +52,7 @@
 
 
 /**
- KTKSubordinate is a class represnting subordinate
+ KTKSubordinate is a class representing subordinate
  */
 @interface KTKSubordinate : KTKDataTransferObject <KTKSubordinate>
 

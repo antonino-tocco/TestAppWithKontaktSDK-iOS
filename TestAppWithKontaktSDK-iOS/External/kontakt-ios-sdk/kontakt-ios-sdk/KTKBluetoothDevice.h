@@ -51,23 +51,32 @@
 /**
  Connects to device. Has 30s timeout.
  
+ @warning   Don't use it - DEPRECATED
+ @see       KTKBeaconDevice
+ 
  @return error if operation fails
  */
-- (NSError *)connect;
+- (NSError *)connect __deprecated_msg("Use - (BOOL)connectWithPassword:(NSString *)password andError:(NSError **)error from KTKBeaconDevice");
 
 /**
  Disconnects from device. Has 30s timeout.
  
+ @warning   Don't use it - DEPRECATED
+ @see       KTKBeaconDevice
+ 
  @return error if operation fails
  */
-- (NSError *)disconnect;
+- (NSError *)disconnect __deprecated_msg("Use - (void)disconnect from KTKBeaconDevice");
 
 /**
  Discover services and characteristics of device. Has 30s timeout.
  
+ @warning   Don't use it - DEPRECATED
+ @see       KTKBeaconDevice
+ 
  @return error if operation fails
  */
-- (NSError *)discover;
+- (NSError *)discover __deprecated_msg("Use - (BOOL)connectWithPassword:(NSString *)password andError:(NSError **)error from KTKBeaconDevice");
 
 /**
  Reads value of device characteristc. Has 30s timeout.

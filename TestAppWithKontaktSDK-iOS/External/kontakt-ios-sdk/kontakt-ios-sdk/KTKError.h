@@ -13,46 +13,66 @@ typedef NS_ENUM(int, KTKErrorCode) {
     /**
      Error cause is unknown.
      */
-    KTKErrorCodeUnknown,
+    KTKErrorCodeUnknown = 0,
     
     /**
      Connection to web API failed.
      */
-    KTKErrorCodeConnectionFailed,
+    KTKErrorCodeConnectionFailed = 1,
+    
+    /**
+     Web API responded with 4xx - client error
+     */
+    KTKErrorCodeClientError = 2,
+    
+    /**
+     Web API responded with 403 - forbidden access
+     */
+    KTKErrorCodeResourceForbidden = 3,
     
     /**
      Web API didn't found requested resource.
      */
-    KTKErrorCodeResourceNotFound,
+    KTKErrorCodeResourceNotFound = 4,
+    
+    /**
+     Web API responded with 422 - validation error
+     */
+    KTKErrorCodeValidationFailed = 5,
+    
+    /**
+     Web API responded with 5xx - server error
+     */
+    KTKErrorCodeServerError = 6,
     
     /**
      KTKConverter did failed to convert value.
      */
-    KTKErrorCodeConversionFailed,
+    KTKErrorCodeConversionFailed = 7,
     
     /**
      Bluetooth device is not connected.
      */
-    KTKErrorCodeDeviceDisconnected,
+    KTKErrorCodeDeviceDisconnected = 8,
     
     /**
      Bluetooth device is not connectable.
      */
-    KTKErrorCodeDeviceLocked,
+    KTKErrorCodeDeviceLocked = 9,
     
     /**
      Bluetooth operation has failed.
      */
-    KTKErrorCodeOperationFailed,
+    KTKErrorCodeOperationFailed = 10,
     
     /**
      Bluetooth operation has timed out.
      */
-    KTKErrorCodeOperationItmedOut,
+    KTKErrorCodeOperationItmedOut = 11,
 };
 
 /**
- This class represents error returend by SKD methods.
+ This class represents error returned by SDK methods.
  */
 @interface KTKError : NSError
 
@@ -68,7 +88,7 @@ typedef NS_ENUM(int, KTKErrorCode) {
 + (BOOL)doesError:(NSError *)error haveCode:(KTKErrorCode)code;
 
 /**
- Creates and return new KTKError object wiht provided error code.
+ Creates and return new KTKError object with provided error code.
  
  @param code error code
  @return new KTKError object

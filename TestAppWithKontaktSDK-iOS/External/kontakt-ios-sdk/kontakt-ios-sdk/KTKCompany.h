@@ -37,7 +37,7 @@
 @end
 
 /**
-    KTKCompany is a class represnting company
+    KTKCompany is a class representing company
  */
 @interface KTKCompany : KTKDataTransferObject <KTKCompany>
 

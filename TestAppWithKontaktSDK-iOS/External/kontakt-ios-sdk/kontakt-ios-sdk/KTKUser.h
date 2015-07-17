@@ -14,20 +14,14 @@
  */
 @protocol KTKUser <KTKManager>
 
-/**
-    user's API key
- */
-@property (nonatomic, readonly) NSString *apiKey;
-
 @end
 
 /**
-    KTKUser is a class represnting user("extended" manager)
+    KTKUser is a class representing user("extended" manager)
  */
 @interface KTKUser : KTKManager<KTKUser>
 
 #pragma mark - properties
 
-@property (nonatomic) NSString *apiKey;
 
 @end

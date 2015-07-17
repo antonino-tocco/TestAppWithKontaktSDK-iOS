@@ -9,8 +9,11 @@
 #import "KTKBluetoothManager.h"
 
 /**
- Allows to easily sarch for nearby beacon devices.
+ Allows to easily search for nearby beacon devices.
+ 
+ @warning   Don't use it - DEPRECATED - use KTKBluetoothManager instead
  */
+__attribute__((deprecated))
 @interface KTKBeaconManager : KTKBluetoothManager
 
 @end

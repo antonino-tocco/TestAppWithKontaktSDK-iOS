@@ -44,7 +44,7 @@
  Initializes object using values in given dictionary.
  
  @param dictionary dictionary with initial values
- @return initailized model object
+ @return initialized model object
  */
 - (id)initWithDictionary:(NSDictionary *)dictionary;
 

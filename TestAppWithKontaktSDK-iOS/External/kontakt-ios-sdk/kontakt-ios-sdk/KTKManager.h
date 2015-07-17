@@ -56,10 +56,15 @@
  */
 @property (nonatomic, readonly) NSString *uniqueId;
 
+/**
+    manager's API key
+ */
+@property (nonatomic, readonly) NSString *apiKey;
+
 @end
 
 /**
-    KTKCompany is a class represnting manager
+    KTKCompany is a class representing manager
  */
 @interface KTKManager : KTKDataTransferObject<KTKManager>
 
@@ -73,6 +78,7 @@
 @property (nonatomic) NSString *email;
 @property (nonatomic) id<KTKCompany> company;
 @property (nonatomic) NSString *uniqueId;
+@property (nonatomic) NSString *apiKey;
 
 #pragma mark - methods
 
@@ -84,7 +90,7 @@
  @param email       manager's email
  @param role        manager's role
  
- @return initailized manager object
+ @return initialized manager object
  */
 - (id)initWithFirstName:(NSString *)firstName lastName:(NSString *)lastName email:(NSString *)email role:(NSString *)role;
 

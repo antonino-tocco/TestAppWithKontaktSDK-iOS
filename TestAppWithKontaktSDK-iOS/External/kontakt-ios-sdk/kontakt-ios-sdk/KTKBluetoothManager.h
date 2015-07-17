@@ -7,6 +7,7 @@
 //
 
 @class KTKBluetoothManager;
+@class KTKEddystoneDevice;
 
 /**
  Responds to bluetooth manager events. Methods are invoked on main thread.
@@ -14,17 +15,42 @@
 @protocol KTKBluetoothManagerDelegate <NSObject>
 
 /**
- Informs that bluetooth manager has found new beacons and updated some already discovered beacons.
+ Bluetooth manager informs which Eddystones devices are currently in range with it's latest(refreshed) properties
+ You should have it executed every second.
  
- @param bluetoothManager bluetooth manager that calls this method
- @param devices set of new and updated KTKBluetoothDevice objects
+ @param bluetoothManager    bluetooth manager that calls this method
+ @param devices             set of new and updated KTKBeaconDevice objects
  */
 - (void)bluetoothManager:(KTKBluetoothManager *)bluetoothManager didChangeDevices:(NSSet *)devices;
+/**
+ Bluetooth manager informs which Eddystones devices are currently in range with it's latest(refreshed) properties
+ You should have it executed every second.
+ 
+ @param bluetoothManager    bluetooth manager that calls this method
+ @param eddystones          set of new and updated KTKEddystone objects
+ */
+- (void)bluetoothManager:(KTKBluetoothManager *)bluetoothManager didChangeEddystones:(NSSet *)eddystones;
+
+@optional
+/**
+ Informs that bluetooth manager has ranged(received UID data frame) specified Eddystone device
+ 
+ @param bluetoothManager    bluetooth manager that calls this method
+ @param eddystone           Eddystone device that was discovered
+ */
+- (void)bluetoothManager:(KTKBluetoothManager *)bluetoothManager didDiscoverEddystone:(KTKEddystoneDevice *)eddystone;
+/**
+ Informs that bluetooth manager has lost(out of range) specified Eddystone device
+ 
+ @param bluetoothManager    bluetooth manager that calls this method
+ @param eddystone           Eddystone device that is out of range now
+ */
+- (void)bluetoothManager:(KTKBluetoothManager *)bluetoothManager didLoseEddystone:(KTKEddystoneDevice *)eddystone;
 
 @end
 
 /**
- Allows to easily sarch for nearby bluetooth devices.
+ Allows to easily search for nearby bluetooth devices.
  */
 @interface KTKBluetoothManager : NSObject
 

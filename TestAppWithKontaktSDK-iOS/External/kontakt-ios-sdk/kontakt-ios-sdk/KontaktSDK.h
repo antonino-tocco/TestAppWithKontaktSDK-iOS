@@ -6,21 +6,31 @@
 //  Copyright (c) 2014 kontakt.io. All rights reserved.
 //
 
-//API
+
+#define KONTAKT_SDK_VERSION @"6.0"
+
+// API
 #import "KTKClient.h"
 
-//DTO
-#import "KTKAction.h"
+// DTO
+#import "KTKDevice.h"
 #import "KTKBeacon.h"
+#import "KTKPublicBeacon.h"
+#import "KTKEddystone.h"
+#import "KTKCloudBeacon.h"
+#import "KTKBeaconProfile.h"
 #import "KTKFirmware.h"
+#import "KTKAction.h"
+#import "KTKPublicAction.h"
 #import "KTKRegion.h"
 #import "KTKVenue.h"
+#import "KTKPublicVenue.h"
 #import "KTKCompany.h"
 #import "KTKManager.h"
 #import "KTKSubordinate.h"
 #import "KTKUser.h"
 
-//Converters
+// Converters
 #import "KTKHexConverter.h"
 #import "KTKNumberConverter.h"
 #import "KTKNumberDiscreteConverter.h"
@@ -28,13 +38,24 @@
 #import "KTKStringConverter.h"
 #import "KTKUUIDConverter.h"
 
-//Beacons
-#import "KTKBeaconDeviceV2.h"
+// iBeacons
+#import "KTKBeaconDevice.h"
 #import "KTKBeaconManager.h"
 
-//Microlocation
+// Eddystones
+#import "KTKEddystoneDevice.h"
+#import "KTKEddystoneRegion.h"
+#import "KTKEddystoneUID.h"
+#import "KTKEddystoneURL.h"
+#import "KTKEddystoneTLM.h"
+
+// Microlocation
 #import "KTKActionManager.h"
 #import "KTKLocationManager.h"
 
-//Utils
+// Utils
 #import "KTKError.h"
+#import "KTKPagingBeacons.h"
+#import "KTKPagingDevices.h"
+#import "KTKPagingConfigs.h"
+#import "KTKPagingVenues.h"

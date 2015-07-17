@@ -11,7 +11,7 @@
 @protocol KTKVenue;
 
 /**
- KTKBeacon is a protocol that should be implemented by any object that represents a beacon.
+ KTKBeacon is a protocol that should be implemented by any object that represents a beacon or its config.
  */
 @protocol KTKBeacon <KTKDataTransferObject>
 
@@ -21,7 +21,7 @@
 @property (strong, nonatomic, readonly) NSString *alias;
 
 /**
- Firmwave revision number. By defaul this property is nil but you can assign new value to change it.
+ Firmwave revision number. By default this property is nil but you can assign new value to change it.
  */
 @property (strong, nonatomic, readonly) NSString *firmware;
 
@@ -36,7 +36,7 @@
 @property (strong, nonatomic, readonly) NSNumber *major;
 
 /**
- Miorn number of the beacon.
+ Minor number of the beacon.
  */
 @property (strong, nonatomic, readonly) NSNumber *minor;
 
@@ -51,7 +51,7 @@
 @property (strong, nonatomic, readonly) NSString *uniqueID;
 
 /**
- Password for the beacon. By defaul this property is nil but you can assign new value to change it.
+ Password for the beacon. By default this property is nil but you can assign new value to change it.
  */
 @property (strong, nonatomic, readonly) NSString *password;
 
@@ -64,6 +64,11 @@
  Priximity UUID of the beacon.
  */
 @property (strong, nonatomic, readonly) NSString *proximity;
+
+/**
+ Beacon's manager(owner) UUID
+ */
+@property (strong, nonatomic, readonly) NSString *managerUUID;
 
 @optional
 
@@ -80,13 +85,12 @@
 @end
 
 /**
- KTKBeacon is a class representing a beacon.
+ KTKBeacon is a class representing a beacon or its config.
  */
 @interface KTKBeacon : KTKDataTransferObject <KTKBeacon>
 
 #pragma mark - properties
 
-@property (strong, nonatomic, readwrite) NSSet *actions;
 @property (strong, nonatomic, readwrite) NSString *alias;
 @property (strong, nonatomic, readwrite) NSString *firmware;
 @property (strong, nonatomic, readwrite) NSNumber *interval;
@@ -97,6 +101,8 @@
 @property (strong, nonatomic, readwrite) NSString *password;
 @property (strong, nonatomic, readwrite) NSNumber *power;
 @property (strong, nonatomic, readwrite) NSString *proximity;
+@property (strong, nonatomic, readwrite) NSString *managerUUID;
+@property (strong, nonatomic, readwrite) NSSet *actions;
 @property (strong, nonatomic, readwrite) id<KTKVenue> venue;
 
 @end

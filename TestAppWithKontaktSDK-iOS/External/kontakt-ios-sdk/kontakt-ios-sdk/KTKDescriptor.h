@@ -7,7 +7,7 @@
 //
 
 /**
- KTKDescriptor is an abstract class that lets you assign arbitrary string unique identifier with another string representing arbitrary type. KTKDescriptor is a base class for KTKServiceDescriptor and KTKCharacteristicDescriptor which are used to provide convinient way to refer to services and characteristics of a bluetooth device by type and not by UUID. UUID may differ between devices depending on hardware and formware version.
+ KTKDescriptor is an abstract class that lets you assign arbitrary string unique identifier with another string representing arbitrary type. KTKDescriptor is a base class for KTKServiceDescriptor and KTKCharacteristicDescriptor which are used to provide convenient way to refer to services and characteristics of a bluetooth device by type and not by UUID. UUID may differ between devices depending on hardware and firmware version.
  */
 @interface KTKDescriptor : NSObject
 

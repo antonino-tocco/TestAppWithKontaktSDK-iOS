@@ -18,7 +18,7 @@ extern NSString *const kKTKServiceDescriptorTypeBatteryService;
 extern NSString *const kKTKServiceDescriptorTypeResetService;
 
 /**
- KTKServiceDescriptor is an class that represents a specific bluetooth service. It allows to refer to device service by convinient type rather than its UUID.
+ KTKServiceDescriptor is an class that represents a specific bluetooth service. It allows to refer to device service by convenient type rather than its UUID.
  
  Predefined services types are:
  
