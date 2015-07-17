@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +16,64 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SY5-z6-pC4">
+                                <rect key="frame" x="176" y="183" width="248" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="248" id="FWv-zR-Ece"/>
+                                    <constraint firstAttribute="height" constant="88" id="KNv-fg-GUg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eddystone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pu-Mq-1uJ">
+                                <rect key="frame" x="237" y="279" width="127" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Tp5-So-U02"/>
+                                    <constraint firstAttribute="width" constant="127" id="WuY-OX-TZo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKP-Ty-yJq">
+                                <rect key="frame" x="176" y="315" width="248" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="248" id="6fp-nc-b3l"/>
+                                    <constraint firstAttribute="height" constant="88" id="y18-Ig-aQi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kontakt's iBeacons" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJ6-t5-hnY">
+                                <rect key="frame" x="212" y="134" width="212" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="RkW-pR-45f"/>
+                                    <constraint firstAttribute="width" constant="212" id="dtm-BP-fgF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="SY5-z6-pC4" secondAttribute="centerX" id="80j-9K-dfh"/>
+                            <constraint firstAttribute="centerX" secondItem="sJ6-t5-hnY" secondAttribute="centerX" constant="-18" id="QcR-Lg-1a9"/>
+                            <constraint firstAttribute="centerX" secondItem="DKP-Ty-yJq" secondAttribute="centerX" id="ROP-UV-tqc"/>
+                            <constraint firstAttribute="centerY" secondItem="6pu-Mq-1uJ" secondAttribute="centerY" constant="0.5" id="SGj-JZ-N0I"/>
+                            <constraint firstItem="SY5-z6-pC4" firstAttribute="top" secondItem="sJ6-t5-hnY" secondAttribute="bottom" constant="8" id="VhY-wd-2ej"/>
+                            <constraint firstItem="DKP-Ty-yJq" firstAttribute="top" secondItem="6pu-Mq-1uJ" secondAttribute="bottom" constant="-5" id="mwZ-83-rwp"/>
+                            <constraint firstItem="6pu-Mq-1uJ" firstAttribute="top" secondItem="SY5-z6-pC4" secondAttribute="bottom" constant="8" id="vZ0-hb-ftL"/>
+                            <constraint firstAttribute="centerX" secondItem="6pu-Mq-1uJ" secondAttribute="centerX" constant="-0.5" id="zoW-CI-cSh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelCounterBeacons" destination="SY5-z6-pC4" id="G3z-Wc-97v"/>
+                        <outlet property="labelCounterEddystones" destination="DKP-Ty-yJq" id="njU-uk-qtB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
